@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:layout_constraintRight_toRightOf="parent">
+
+    <TextView
+        android:id="@+id/his_name"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:padding="5dp"
+        android:text="Numele meu:"
+        android:textColor="#FF0076"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:fontFamily="sans-serif" />
+
+    <ImageView
+        android:id="@+id/his_image"
+        android:layout_width="270dp"
+        android:layout_height="290dp"
+        android:layout_gravity="left"
+        android:adjustViewBounds="true"
+        android:maxWidth="120dp"
+        android:maxHeight="120dp"
+        android:padding="5dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/his_coordinates"
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:padding="5dp"
+        android:text="Coordonate:"
+        android:textColor="#D600AE"
+        android:textSize="12sp" />
+</LinearLayout>
